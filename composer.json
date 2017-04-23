@@ -1,0 +1,31 @@
+{
+  "name":"bearzlh/init",
+  "description":"test init",
+  "keysords":["test init"],
+  "homepage":"https://github.com/bearzlh/init",
+  "license":"MIT",
+  "authors":[
+    {
+      "name":"Bear Zheng",
+      "homepage":"https://github.com/bearzlh",
+      "role":"developer"
+    }
+  ],
+  "support":{
+    "email":"bear.zheng@yunzhihui.com"
+  },
+  "require":{
+    "phpunit/phpunit": "^4.8"
+  },
+  "require-dev":{
+
+  },
+  "suggest":{
+
+  },
+  "autoload":{
+    "psr-4":{
+      "bearzlh\\init\\":"src"
+    }
+  }
+}
